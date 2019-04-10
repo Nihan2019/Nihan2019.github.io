@@ -2,29 +2,43 @@
 
 .js 
 ```
-create a var variable ```// Example var myName;
+create a var variable 
+```
+// Example
+   var myName;
 
 // Declare myName below this line```
 
 assigning a value
 ```// Setup 
-var a; var b = 2;
+var a;
+var b = 2;
 
-// Only change code below this line  var a = 7; var b = 7; b = a;```
+// Only change code below this line
+var a = 7; 
+var b = 7;
+b = a;
+```
 
 to define a variable
 ```
 var ourVar = 19;
-```
-// Only change code below this line var a = 9;
 
+// Only change code below this line 
+var a = 9;
+```
 initializing a number or undefined
 ```
-// Initialize these three variables var a = 5; var b = 10; var c ="I am a";
+// Initialize these three variables 
+var a = 5;
+var b = 10; 
+var c ="I am a";
 
 // Do not change code below this line
 
-a = a + 1; b = b + 5; c = c + " String!";
+a = a + 1; 
+b = b + 5;
+c = c + " String!";
 ```
 
 to learn about case 
@@ -32,8 +46,8 @@ to learn about case
 // Declarations var studlyCapVar;
    var properCamelCase; 
     var titleCaseOver;
-
-// Assignments 
+```
+Assignments 
 ```
 studlyCapVar = 10; 
 properCamelCase = "A String"; 
@@ -42,6 +56,7 @@ titleCaseOver = 9000;
 adding the numbers
 ```
 var sum = 10 + 10;
+```
 find the difference between the numbers
 ```
 var difference = 45 - 33;
@@ -58,19 +73,23 @@ increasing numbers one
 ```
 var myVar = 87;
 
-// Only change code below this line myVar++;
+// Only change code below this line 
+  myVar++;
 ```
 decreasing numbers one 
 ```
 var myVar = 11;
 
-// Only change code below this line myVar--;
+// Only change code below this line
+myVar--;
 ```
 create a decimal number
 ```
 var ourDecimal = 5.7;
 
-// Only change code below this line var myDecimal = 3.6;
+// Only change code below this line
+
+var myDecimal = 3.6;
 ```
 multiplying two decimals 
 ```
@@ -95,7 +114,6 @@ var a = 3; var b = 17; var c = 12;
 a+= 12; b+= 9; c+= 7;
 ```
 
-```
 subtracting numbers in a short way
 ```
 var a = 11; var b = 9; var c = 3;
@@ -156,7 +174,8 @@ myStr = "This is the start. " + "This is the end."
 ```
 concenating with plus
 ```
-// Example var ourStr = "I come first. "; ourStr += "I come second.";
+// Example 
+var ourStr = "I come first. "; ourStr += "I come second.";
 
 // Only change code below this line
 
@@ -170,13 +189,16 @@ concenating three strings
 ``` var ourName = "freeCodeCamp"; 
 var ourStr = "Hello, our name is " + ourName + ", how are you?";
 
-// Only change code below this line var myName;
-var myStr; myName = "Nihan"; 
+// Only change code below this line 
+var myName;
+var myStr; 
+myName = "Nihan"; 
 myStr = "My name is " + myName + " and I am well!";
 
 ```
 Appending Variables to Strings
-``` // Example var anAdjective = "awesome!"; 
+``` // Example
+var anAdjective = "awesome!"; 
 var ourStr = "freeCodeCamp is "; 
 ourStr += anAdjective;
 
@@ -189,7 +211,8 @@ myStr += someAdjective;
 ```
 finding the length of a string 
 ```
-// Example var anAdjective = "awesome!"; 
+// Example
+var anAdjective = "awesome!"; 
 var ourStr = "freeCodeCamp is "; 
 ourStr += anAdjective;
 
@@ -201,7 +224,8 @@ myStr += someAdjective;
 
 ```
 using bracket to find the first letter
-```// Example var firstLetterOfFirstName = ""; 
+```// Example 
+var firstLetterOfFirstName = ""; 
 var firstName = "Ada";
 
 firstLetterOfFirstName = firstName[0];
@@ -209,11 +233,13 @@ firstLetterOfFirstName = firstName[0];
 // Setup var firstLetterOfLastName = ""; 
 var lastName = "Lovelace";
 
-// Only change code below this line firstLetterOfLastName = lastName[0];
+// Only change code below this line 
+firstLetterOfLastName = lastName[0];
 
 ```
 string immutability
-``` // Setup var myStr = "Jello World";
+``` 
+// Setup var myStr = "Jello World";
 
 // Only change code below this line
 
@@ -243,7 +269,8 @@ var lastLetterOfLastName = lastName[lastName.length - 1];
 ```
 nth to last letter of a string
 ```
-// Example var firstName = "Ada";
+// Example
+var firstName = "Ada";
 var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
 
 // Setup var lastName = "Lovelace";
@@ -280,7 +307,8 @@ var myArray = [["Aydin",46],["Nihan",43]];
 ```
 indexes
 ```
-// Example var ourArray = [50,60,70]; var ourData = ourArray[0]; // equals 50
+// Example var ourArray = [50,60,70]; 
+var ourData = ourArray[0]; // equals 50
 
 // Setup var myArray = [50,60,70];
 var myData = myArray[0];
@@ -290,7 +318,9 @@ var myData = myArray[0];
 ```
 mutable array indexes
 ```
-// Example var ourArray = [18,64,99]; ourArray[1] = 45; // ourArray now equals [18,45,99].
+// Example
+var ourArray = [18,64,99];
+ourArray[1] = 45; // ourArray now equals [18,45,99].
 
 // Setup var myArray = [18,64,99]; 
 myArray[0] = 45;
@@ -307,7 +337,8 @@ var myData = myArray[2][1];
 ```
 Manipulate Arrays With push()
 ```
-// Example var ourArray = ["Stimpson", "J", "cat"]; ourArray.push(["happy", "joy"]);
+// Example
+var ourArray = ["Stimpson", "J", "cat"]; ourArray.push(["happy", "joy"]);
 // ourArray now equals ["Stimpson", "J", "cat", ["happy", "joy"]]
 
 // Setup var myArray = [["John", 23], ["cat", 2]];
@@ -410,7 +441,8 @@ myLocalScope();
 ```
 return a value a function
 ```
-// Example function minusSeven(num) { 
+// Example
+function minusSeven(num) { 
 return num - 7; 
 }
 
@@ -418,7 +450,6 @@ return num - 7;
 function timesFive(num) { 
 return num*5; 
 }
-
 console.log(minusSeven(10));
 
 ```
@@ -462,13 +493,15 @@ return true; // Change this line
 ```
 if statements
 ```
-// Example function ourTrueOrFalse(isItTrue) { 
+// Example 
+function ourTrueOrFalse(isItTrue) { 
 if (isItTrue) { 
 return "Yes, it's true";
 } 
 return "No, it's false"; 
 }
-
+```
+```
 // Setup function trueOrFalse(wasThatTrue) {
 
 // Only change code below this line. 
@@ -545,14 +578,11 @@ function testGreaterOrEqual(val) {
 if (val>=20) { 
 // Change this line return "20 or Over";
 }
-
 if (val>=10) {
 // Change this line return "10 or Over"; 
 }
-
 return "Less than 10";
 }
-
 // Change this value to test testGreaterOrEqual(10);
 
 ```
@@ -667,7 +697,6 @@ return "Less than 10";
 return "Greater than or equal to 10"; 
 }
 }
-
 // Change this value to test orderMyLogic(7);
 
 ```
@@ -691,6 +720,6 @@ return "Change Me";
 }
 // Only change code above this line 
 }
-```
 
 // Change this value to test testSize(7);
+```
