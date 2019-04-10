@@ -2,19 +2,20 @@
 
 .js 
 ```
-create a var variable // Example var myName;
+```create a var variable // Example var myName;
 
-// Declare myName below this line
+// Declare myName below this line```
 
-```assigning a value```
-// Setup 
+assigning a value
+```// Setup 
 var a; var b = 2;
 
-// Only change code below this line  var a = 7; var b = 7; b = a;
+// Only change code below this line  var a = 7; var b = 7; b = a;```
 
-``` to define a variable```
+to define a variable
+```
 var ourVar = 19;
-
+```
 // Only change code below this line var a = 9;
 
 ```initializing a number or undefined```
@@ -29,8 +30,9 @@ a = a + 1; b = b + 5; c = c + " String!";
 
 // Assignments studlyCapVar = 10; properCamelCase = "A String"; titleCaseOver = 9000;
 
-adding the numbers var sum = 10 + 10;
-
+adding the numbers
+var sum = 10 + 10;
+```
 ```find the difference between the numbers```
 var difference = 45 - 33;
 
