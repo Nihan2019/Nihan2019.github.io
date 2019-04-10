@@ -6,7 +6,9 @@ create a var variable // Example var myName;
 
 // Declare myName below this line
 
-assigning a value // Setup var a; var b = 2;
+```.js
+assigning a value``` // Setup 
+var a; var b = 2;
 
 // Only change code below this line  var a = 7; var b = 7; b = a;
 
@@ -15,7 +17,8 @@ var ourVar = 19;
 
 // Only change code below this line var a = 9;
 
-initializing a number or undefined // Initialize these three variables var a = 5; var b = 10; var c ="I am a";
+```initializing a number or undefined```
+// Initialize these three variables var a = 5; var b = 10; var c ="I am a";
 
 // Do not change code below this line
 
