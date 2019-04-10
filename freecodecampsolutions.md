@@ -1,6 +1,9 @@
+```
 
+.js 
+```
 
-.js create a var variable // Example var myName;
+create a var variable // Example var myName;
 
 // Declare myName below this line
 
@@ -48,7 +51,7 @@ multiplying two decimals var product = 2.0 * 2.5;
 
 ````finding the remainder of a division``` var remainder; remainder = 11 % 3;
 
-``adding numbers in a short way``` var a = 3; var b = 17; var c = 12;
+```adding numbers in a short way``` var a = 3; var b = 17; var c = 12;
 
 // Only modify code below this line
 
@@ -60,13 +63,13 @@ subtracting numbers in a short way var a = 11; var b = 9; var c = 3;
 
 a-= 6; b-= 15; c-= 1;
 
-``` multiplying numbers in a short way```` var a = 5; var b = 12; var c = 4.6;
+``` multiplying numbers in a short way``` var a = 5; var b = 12; var c = 4.6;
 
 // Only modify code below this line
 
 a*= 5; b*= 3; c*= 10;
 
-````dividing in a short way``` var a = 48; var b = 108; var c = 33;
+```dividing in a short way``` var a = 48; var b = 108; var c = 33;
 
 // Only modify code below this line
 
@@ -74,9 +77,9 @@ a/= 12; b/= 4; c/= 11; assigning a name // Example var firstName = "Alan"; var l
 
 // Only change code below this line var myFirstName = "Nihan"; var myLastName = "Akkose";
 
-````about two times quotes ``` var myStr = "I am a "double quoted" string inside "double quotes"."; // Change this line
+```about two times quotes ``` var myStr = "I am a "double quoted" string inside "double quotes"."; // Change this line
 
-`````Quoting Strings with Single Quotes`````` var myStr =' Link';
+```Quoting Strings with Single Quotes``` var myStr =' Link';
 
 it was hard to solve var myStr = "FirstLine\n\t\SecondLine\nThirdLine";// Change this line
 
@@ -98,7 +101,7 @@ myStr = "This is the first sentence. " ; myStr += "This is the second sentence."
 
 // Only change code below this line var myName; var myStr; myName = "Nihan"; myStr = "My name is " + myName + " and I am well!";
 
-````Appending Variables to Strings````` // Example var anAdjective = "awesome!"; var ourStr = "freeCodeCamp is "; ourStr += anAdjective;
+```Appending Variables to Strings``` // Example var anAdjective = "awesome!"; var ourStr = "freeCodeCamp is "; ourStr += anAdjective;
 
 // Only change code below this line
 
