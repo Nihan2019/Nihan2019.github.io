@@ -7,7 +7,8 @@ create a var variable
 // Example
    var myName;
 
-// Declare myName below this line```
+// Declare myName below this line
+```
 
 assigning a value
 ```// Setup 
