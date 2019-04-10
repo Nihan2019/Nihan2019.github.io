@@ -61,10 +61,10 @@ var product = 2.0 * 2.5;
 ```dividing decimals```
 var quotient = 4.4 / 2.0; // Fix this line
 
-```finding the remainder of a division
-var remainder; remainder = 11 % 3;```
+```finding the remainder of a division```
+var remainder; remainder = 11 % 3;
 
-```adding numbers in a short way
+```adding numbers in a short way```
 var a = 3; var b = 17; var c = 12;
 
 // Only modify code below this line
@@ -97,15 +97,18 @@ a/= 12; b/= 4; c/= 11; assigning a name // Example var firstName = "Alan"; var l
 
 ```Quoting Strings with Single Quotes``` var myStr =' Link';
 
-it was hard to solve var myStr = "FirstLine\n\t\SecondLine\nThirdLine";// Change this line
+```it was hard to solve```
+var myStr = "FirstLine\n\t\SecondLine\nThirdLine";// Change this line
 
-concenating strings var ourStr = "I come first. " + "I come second.";
+```concenating strings ```
+var ourStr = "I come first. " + "I come second.";
 
 // Only change code below this line
 
 var myStr; myStr = "This is the start. " + "This is the end."
 
-concenating with plus // Example var ourStr = "I come first. "; ourStr += "I come second.";
+```concenating with plus```
+// Example var ourStr = "I come first. "; ourStr += "I come second.";
 
 // Only change code below this line
 
@@ -123,7 +126,8 @@ myStr = "This is the first sentence. " ; myStr += "This is the second sentence."
 
 var someAdjective = "challenging!"; var myStr = "Learning to code is "; myStr += someAdjective;
 
-finding the length of a string // Example var anAdjective = "awesome!"; var ourStr = "freeCodeCamp is "; ourStr += anAdjective;
+```finding the length of a string ```
+// Example var anAdjective = "awesome!"; var ourStr = "freeCodeCamp is "; ourStr += anAdjective;
 
 // Only change code below this line
 
@@ -143,7 +147,8 @@ firstLetterOfFirstName = firstName[0];
 
 myStr = "Hello World";// Fix Me
 
-the nth letter // Example var firstName = "Ada"; var secondLetterOfFirstName = firstName[1];
+```the nth letter```
+// Example var firstName = "Ada"; var secondLetterOfFirstName = firstName[1];
 
 // Setup var lastName = "Lovelace";
 
@@ -192,7 +197,8 @@ Multi-dimensional Array // Example var ourArray = [["the universe", 42], ["every
 
 // Only change code below this line.
 
-array of arrays // Setup var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+```Array of arrays```
+// Setup var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 
 // Only change code below this line. var myData = myArray[2][1];
 ```Manipulate Arrays With push()```
@@ -226,7 +232,8 @@ ourReusableFunction();
 
 // Only change code below this line function reusableFunction(){ console.log("Hi World"); } reusableFunction();
 
-functions with arguments // Example function ourFunctionWithArgs(a, b) { console.log(a - b); } ourFunctionWithArgs(10, 5); // Outputs 5
+```functions with arguments ```
+// Example function ourFunctionWithArgs(a, b) { console.log(a - b); } ourFunctionWithArgs(10, 5); // Outputs 5
 
 // Only change code below this line. function functionWithArgs(a, b) { console.log(a + b); } functionWithArgs(10, 5);
 
@@ -239,7 +246,7 @@ oopsGlobal = 5; }
 
 // Only change code above this line function fun2() { var output = ""; if (typeof myGlobal != "undefined") { output += "myGlobal: " + myGlobal; } if (typeof oopsGlobal != "undefined") { output += " oopsGlobal: " + oopsGlobal; } console.log(output); }
 
-```local scopeI didn`t understan but I passed.```
+```local scopeI didnt understan but I passed.```
 function myLocalScope() { var myVar='use strict'; // you shouldn't need to edit this line
 
 console.log(myVar); } myLocalScope();
@@ -267,13 +274,16 @@ return arr.shift() ; // Change this line }
 
 // Display Code console.log("Before: " + JSON.stringify(testArr)); console.log(nextInLine(testArr, 6)); // Modify this line to test console.log("After: " + JSON.stringify(testArr));
 
-boolean values function welcomeToBooleans() {
+```boolean values```
+function welcomeToBooleans() {
 
 // Only change code below this line.
 
 return true; // Change this line
 
-// Only change code above this line. } if statements // Example function ourTrueOrFalse(isItTrue) { if (isItTrue) { return "Yes, it's true"; } return "No, it's false"; }
+// Only change code above this line. } 
+```if statements```
+// Example function ourTrueOrFalse(isItTrue) { if (isItTrue) { return "Yes, it's true"; } return "No, it's false"; }
 
 // Setup function trueOrFalse(wasThatTrue) {
 
@@ -381,7 +391,8 @@ function orderMyLogic(val) { if (val < 5) { return "Less than 5"; } else if (val
 // Change this value to test orderMyLogic(7);
 
 ```Chaining If Else Statements```
-function testSize(num) { // Only change code below this line
+function testSize(num) { 
+// Only change code below this line
 
 if(num < 5 ){ return "Tiny"; }else if (num < 10) { return "Small"; } else if (num < 15 ) { return "Medium"; } else if (num < 20) { return "Large"; } else if (num >= 20){ return "Huge"; } else{ return "Change Me"; } // Only change code above this line }
 
