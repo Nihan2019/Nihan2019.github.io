@@ -2,16 +2,16 @@
 
 .js 
 ```
-
 create a var variable // Example var myName;
 
 // Declare myName below this line
 
 assigning a value // Setup var a; var b = 2;
 
-// Only change code below this line var a = 7; var b = 7; b = a;
+// Only change code below this line  var a = 7; var b = 7; b = a;
 
-``` to define a variable`` var ourVar = 19;
+``` to define a variable```
+var ourVar = 19;
 
 // Only change code below this line var a = 9;
 
@@ -27,37 +27,47 @@ to learn about case // Declarations var studlyCapVar; var properCamelCase; var t
 
 adding the numbers var sum = 10 + 10;
 
-```find the difference between the numbers```` var difference = 45 - 33;
+```find the difference between the numbers```
+var difference = 45 - 33;
 
-`````pruduct the numbers```` var product = 8 * 10;
+`````product the numbers````
+var product = 8 * 10;
 
-````finding the quotient``` var quotient = 66 / 33;
+````finding the quotient```
+var quotient = 66 / 33;
 
-increasing numbers one var myVar = 87;
+```increasing numbers one```
+var myVar = 87;
 
 // Only change code below this line myVar++;
 
-decreasing numbers one var myVar = 11;
+```decreasing numbers one ```
+var myVar = 11;
 
 // Only change code below this line myVar--;
 
-``create a decimal number``` var ourDecimal = 5.7;
+``create a decimal number```
+var ourDecimal = 5.7;
 
 // Only change code below this line var myDecimal = 3.6;
 
 multiplying two decimals var product = 2.0 * 2.5;
 
-```dividing decimals`` var quotient = 4.4 / 2.0; // Fix this line
+```dividing decimals```
+var quotient = 4.4 / 2.0; // Fix this line
 
-````finding the remainder of a division``` var remainder; remainder = 11 % 3;
+````finding the remainder of a division``` 
+var remainder; remainder = 11 % 3;
 
-```adding numbers in a short way``` var a = 3; var b = 17; var c = 12;
+```adding numbers in a short way```
+var a = 3; var b = 17; var c = 12;
 
 // Only modify code below this line
 
 a+= 12; b+= 9; c+= 7;
 
-subtracting numbers in a short way var a = 11; var b = 9; var c = 3;
+```subtracting numbers in a short way```
+var a = 11; var b = 9; var c = 3;
 
 // Only modify code below this line
 
@@ -191,9 +201,11 @@ Manipulate Arrays With unshift()
 
 // Only change code below this line.
 
-```Shopping List```` var myList = [["Cereal",2],["Apple",5],["egg",30],["peer",10],["Cake",1]];
+```Shopping List````
+var myList = [["Cereal",2],["Apple",5],["egg",30],["peer",10],["Cake",1]];
 
-creating functions 0// Example= function ourReusableFunction() { console.log("Heyya, World"); }
+```creating functions ```
+0// Example= function ourReusableFunction() { console.log("Heyya, World"); }
 
 ourReusableFunction();
 
@@ -211,7 +223,8 @@ oopsGlobal = 5; }
 
 // Only change code above this line function fun2() { var output = ""; if (typeof myGlobal != "undefined") { output += "myGlobal: " + myGlobal; } if (typeof oopsGlobal != "undefined") { output += " oopsGlobal: " + oopsGlobal; } console.log(output); }
 
-local scopeI didn`t understan but I passed.````` function myLocalScope() { var myVar='use strict'; // you shouldn't need to edit this line
+local scopeI didn`t understan but I passed.````` 
+function myLocalScope() { var myVar='use strict'; // you shouldn't need to edit this line
 
 console.log(myVar); } myLocalScope();
 
