@@ -6,8 +6,8 @@ create a var variable // Example var myName;
 
 // Declare myName below this line
 
-```.js
-assigning a value``` // Setup 
+```assigning a value```
+// Setup 
 var a; var b = 2;
 
 // Only change code below this line  var a = 7; var b = 7; b = a;
@@ -24,7 +24,8 @@ var ourVar = 19;
 
 a = a + 1; b = b + 5; c = c + " String!";
 
-to learn about case // Declarations var studlyCapVar; var properCamelCase; var titleCaseOver;
+```to learn about case ```
+// Declarations var studlyCapVar; var properCamelCase; var titleCaseOver;
 
 // Assignments studlyCapVar = 10; properCamelCase = "A String"; titleCaseOver = 9000;
 
@@ -54,20 +55,21 @@ var ourDecimal = 5.7;
 
 // Only change code below this line var myDecimal = 3.6;
 
-multiplying two decimals var product = 2.0 * 2.5;
+```multiplying two decimals ```
+var product = 2.0 * 2.5;
 
 ```dividing decimals```
 var quotient = 4.4 / 2.0; // Fix this line
 
-```finding the remainder of a division``` 
-var remainder; remainder = 11 % 3;
+```finding the remainder of a division
+var remainder; remainder = 11 % 3;```
 
-```adding numbers in a short way```
+```adding numbers in a short way
 var a = 3; var b = 17; var c = 12;
 
 // Only modify code below this line
 
-a+= 12; b+= 9; c+= 7;
+a+= 12; b+= 9; c+= 7;```
 
 ```subtracting numbers in a short way```
 var a = 11; var b = 9; var c = 3;
